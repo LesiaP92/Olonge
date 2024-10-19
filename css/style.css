@@ -304,4 +304,82 @@
   color: #737373;
 }
 
+.banner2 {
+  max-width: 1280px;
+  position: relative;
+}
+.banner2 .banner-img img {
+  max-width: 100%;
+  background: #252b42;
+}
+.banner2 .banner-text {
+  position: absolute;
+  bottom: 120px;
+  left: 245px;
+}
+.banner2 .banner-text .down {
+  font-family: "poppinssemibold";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 13px;
+}
+.banner2 .banner-text .avail {
+  font-family: "poppinsbold";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 158%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.banner2 .banner-text .store {
+  font-family: "poppinsbold";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.01em;
+  color: #fff;
+  text-decoration: none;
+}
+.banner2 .banner-text .app {
+  font-family: "poppinsbold";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.01em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.store {
+  border-radius: 10px;
+  padding: 18px 31px;
+  width: 142px;
+  height: 64px;
+  background: #fa4a0c;
+  margin-right: 16px;
+  margin-left: 240px;
+}
+.store:hover {
+  background: brown;
+  transition: 0.5s;
+}
+
+.app {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 16px 45px;
+  width: 173px;
+  height: 60px;
+}
+.app:hover {
+  background: brown;
+  transition: 0.5s;
+}
+
 /*# sourceMappingURL=style.css.map */
